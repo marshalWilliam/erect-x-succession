@@ -6,4 +6,6 @@ This repository contains a collection of tools following the [Build Your Own X](
 
 Current finished tuitorials:
 
-* [node-cli](https://citw.dev/tutorial/create-your-own-cli-tool?p=2) - A simple CLI tool using node.
+* [node-cli]
+  * [Create Your Own CLI Tool](https://citw.dev/tutorial/create-your-own-cli-tool?p=2) - A simple CLI tool using node.
+  * [How to Create a Real-World Node CLI App with Node](https://www.freecodecamp.org/news/how-to-create-a-real-world-node-cli-app-with-node-391b727bbed3) - A simple CLI tool for weather
