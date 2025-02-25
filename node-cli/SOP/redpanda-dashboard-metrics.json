@@ -1,0 +1,398 @@
+{
+  "DashboardArn": "arn:aws:cloudwatch::149396090993:dashboard/redpanda-production",
+  "DashboardBody": {
+    "widgets": [
+      {
+        "height": 6,
+        "width": 8,
+        "y": 12,
+        "x": 16,
+        "type": "metric",
+        "properties": {
+          "view": "gauge",
+          "stacked": false,
+          "metrics": [
+            [
+              "CWAgent",
+              "disk_used_percent",
+              "path",
+              "/data",
+              "host",
+              "i-01d04efafc7100696",
+              "device",
+              "nvme1n1",
+              "fstype",
+              "xfs",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "region": "ap-east-1",
+          "title": "Node 2 Disk Usage",
+          "period": 300,
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "annotations": {
+            "horizontal": [
+              {
+                "color": "#FFFF00",
+                "label": "Danger",
+                "value": 75,
+                "fill": "above"
+              },
+              {
+                "color": "#FF0000",
+                "label": "Critical",
+                "value": 90,
+                "fill": "above"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 12,
+        "x": 8,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "CWAgent",
+              "mem_used_percent",
+              "host",
+              "i-01d04efafc7100696",
+              {
+                "region": "ap-east-1",
+                "yAxis": "left"
+              }
+            ]
+          ],
+          "sparkline": true,
+          "view": "singleValue",
+          "stacked": false,
+          "region": "ap-east-1",
+          "stat": "Average",
+          "period": 3600,
+          "title": "Node 2 Memory Usage",
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "annotations": {
+            "horizontal": [
+              {
+                "color": "#fe6e73",
+                "label": "Danger",
+                "value": 75,
+                "fill": "above"
+              }
+            ]
+          },
+          "start": "-PT168H",
+          "end": "P0D"
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 12,
+        "x": 0,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "AWS/EC2",
+              "CPUUtilization",
+              "InstanceId",
+              "i-01d04efafc7100696",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "sparkline": true,
+          "view": "singleValue",
+          "stacked": false,
+          "region": "ap-east-1",
+          "title": "Node 2 CPU Utilization",
+          "period": 3600,
+          "start": "-PT168H",
+          "end": "P0D",
+          "stat": "Average"
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 0,
+        "x": 8,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "CWAgent",
+              "mem_used_percent",
+              "host",
+              "i-00f2e5816f93e5649",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "view": "singleValue",
+          "stacked": true,
+          "region": "ap-east-1",
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "title": "Master Node Memory Usage",
+          "period": 3600,
+          "annotations": {
+            "horizontal": [
+              {
+                "color": "#fe6e73",
+                "label": "Danger",
+                "value": 75,
+                "fill": "above"
+              }
+            ]
+          },
+          "stat": "Average",
+          "start": "-PT168H",
+          "end": "P0D",
+          "sparkline": true
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 0,
+        "x": 0,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "AWS/EC2",
+              "CPUUtilization",
+              "InstanceId",
+              "i-00f2e5816f93e5649",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "sparkline": true,
+          "view": "singleValue",
+          "stacked": false,
+          "region": "ap-east-1",
+          "stat": "Average",
+          "period": 3600,
+          "title": "Master Node CPU Utilization",
+          "start": "-PT168H",
+          "end": "P0D"
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 6,
+        "x": 16,
+        "type": "metric",
+        "properties": {
+          "view": "gauge",
+          "stacked": false,
+          "metrics": [
+            [
+              "CWAgent",
+              "disk_used_percent",
+              "path",
+              "/data",
+              "host",
+              "i-09500cd717376d584",
+              "device",
+              "nvme1n1",
+              "fstype",
+              "xfs",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "region": "ap-east-1",
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "title": "Node 1 Disk Usage",
+          "period": 300,
+          "annotations": {
+            "horizontal": [
+              {
+                "color": "#FFFF00",
+                "label": "Danger",
+                "value": 75,
+                "fill": "above"
+              },
+              {
+                "color": "#FF0000",
+                "label": "Critical",
+                "value": 90,
+                "fill": "above"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 6,
+        "x": 8,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "CWAgent",
+              "mem_used_percent",
+              "host",
+              "i-09500cd717376d584",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "view": "singleValue",
+          "stacked": false,
+          "region": "ap-east-1",
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "stat": "Average",
+          "period": 3600,
+          "title": "Node 1 Memory Usage",
+          "annotations": {
+            "horizontal": [
+              {
+                "color": "#fe6e73",
+                "label": "Danger",
+                "value": 75,
+                "fill": "above"
+              }
+            ]
+          },
+          "start": "-PT168H",
+          "end": "P0D",
+          "sparkline": true
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 6,
+        "x": 0,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "AWS/EC2",
+              "CPUUtilization",
+              "InstanceId",
+              "i-09500cd717376d584",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "sparkline": true,
+          "view": "singleValue",
+          "stacked": false,
+          "region": "ap-east-1",
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "stat": "Average",
+          "period": 3600,
+          "title": "Node 1 CPU Utilization",
+          "start": "-PT168H",
+          "end": "P0D"
+        }
+      },
+      {
+        "height": 6,
+        "width": 8,
+        "y": 0,
+        "x": 16,
+        "type": "metric",
+        "properties": {
+          "metrics": [
+            [
+              "CWAgent",
+              "disk_used_percent",
+              "path",
+              "/data",
+              "host",
+              "i-00f2e5816f93e5649",
+              "device",
+              "nvme1n1",
+              "fstype",
+              "xfs",
+              {
+                "region": "ap-east-1"
+              }
+            ]
+          ],
+          "sparkline": true,
+          "view": "gauge",
+          "stacked": false,
+          "region": "ap-east-1",
+          "stat": "Average",
+          "period": 300,
+          "yAxis": {
+            "left": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          "title": "Master Node Disk Usage",
+          "annotations": {
+            "horizontal": [
+              {
+                "color": "#FFFF00",
+                "label": "Danger",
+                "value": 75,
+                "fill": "above"
+              },
+              {
+                "color": "#FF0000",
+                "label": "Critical",
+                "value": 90,
+                "fill": "above"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "DashboardName": "redpanda-production"
+}

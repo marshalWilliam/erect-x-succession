@@ -1,0 +1,2661 @@
+[
+  {
+    "group": "account-async-consumer-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "5",
+    "totalLag": "4",
+    "topic": [
+      {
+        "topicName": "account.DeleteMemberAccountRequestSubmitted",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-b2700dc0-fd5c-470e-8226-70b93a90b784",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.106.214"
+      },
+      {
+        "topicName": "account.ExecuteSystemJob",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-341b4d8d-f05a-4a82-ad59-1c6a594726ee",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.172"
+      },
+      {
+        "topicName": "account.InquiryCreated",
+        "partition": "0",
+        "currentOffset": "21",
+        "logEndOffset": "21",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-6e9d7aaa-6498-4cac-8eb6-25633c433518",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.170.52"
+      },
+      {
+        "topicName": "account.MayaSessionCreated",
+        "partition": "0",
+        "currentOffset": "687342",
+        "logEndOffset": "687342",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8dd19f97-fe49-41ca-8f10-e5037bdbcd7f",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.129"
+      },
+      {
+        "topicName": "account.MayaSessionCreated",
+        "partition": "1",
+        "currentOffset": "300145",
+        "logEndOffset": "300146",
+        "lag": "1",
+        "memberId": "nestjs-consumer-server-a45975a3-96ec-4008-9f95-3669ee6f5d70",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.39"
+      },
+      {
+        "topicName": "account.MayaSessionCreated",
+        "partition": "2",
+        "currentOffset": "300099",
+        "logEndOffset": "300100",
+        "lag": "1",
+        "memberId": "nestjs-consumer-server-b2700dc0-fd5c-470e-8226-70b93a90b784",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.106.214"
+      },
+      {
+        "topicName": "account.MayaSessionCreated",
+        "partition": "3",
+        "currentOffset": "2535",
+        "logEndOffset": "2536",
+        "lag": "1",
+        "memberId": "nestjs-consumer-server-341b4d8d-f05a-4a82-ad59-1c6a594726ee",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.172"
+      },
+      {
+        "topicName": "account.MayaSessionCreated",
+        "partition": "4",
+        "currentOffset": "2534",
+        "logEndOffset": "2534",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-6e9d7aaa-6498-4cac-8eb6-25633c433518",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.170.52"
+      },
+      {
+        "topicName": "account.MayaVerification",
+        "partition": "0",
+        "currentOffset": "2352",
+        "logEndOffset": "2352",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8dd19f97-fe49-41ca-8f10-e5037bdbcd7f",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.129"
+      },
+      {
+        "topicName": "account.MayaVerification",
+        "partition": "1",
+        "currentOffset": "2348",
+        "logEndOffset": "2348",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-a45975a3-96ec-4008-9f95-3669ee6f5d70",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.39"
+      },
+      {
+        "topicName": "account.MayaVerification",
+        "partition": "2",
+        "currentOffset": "2361",
+        "logEndOffset": "2361",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b2700dc0-fd5c-470e-8226-70b93a90b784",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.106.214"
+      },
+      {
+        "topicName": "account.MemberGroupMembersAdded",
+        "partition": "0",
+        "currentOffset": "43656",
+        "logEndOffset": "43656",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-341b4d8d-f05a-4a82-ad59-1c6a594726ee",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.172"
+      },
+      {
+        "topicName": "account.MemberGroupMembersUpdateRequested",
+        "partition": "0",
+        "currentOffset": "5623",
+        "logEndOffset": "5623",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-6e9d7aaa-6498-4cac-8eb6-25633c433518",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.170.52"
+      },
+      {
+        "topicName": "account.OTPRequested",
+        "partition": "0",
+        "currentOffset": "25993",
+        "logEndOffset": "25993",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-6e9d7aaa-6498-4cac-8eb6-25633c433518",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.170.52"
+      },
+      {
+        "topicName": "account.PlatformDeleted",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "1",
+        "lag": "1",
+        "memberId": "nestjs-consumer-server-341b4d8d-f05a-4a82-ad59-1c6a594726ee",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.172"
+      },
+      {
+        "topicName": "account.RegisterMemberToPartnerMatrix",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-8dd19f97-fe49-41ca-8f10-e5037bdbcd7f",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.129"
+      },
+      {
+        "topicName": "account.SendPartnerMatrixTransaction",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-a45975a3-96ec-4008-9f95-3669ee6f5d70",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.39"
+      }
+    ]
+  },
+  {
+    "group": "account-referralasync-consumer-server",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "3",
+    "totalLag": "163615",
+    "topic": [
+      {
+        "topicName": "account.GameRoundSettled",
+        "partition": "0",
+        "currentOffset": "128567855",
+        "logEndOffset": "128622922",
+        "lag": "55067",
+        "memberId": "nestjs-consumer-server-766f704c-d8e7-4a66-92ce-c9aaf559766a",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.101"
+      },
+      {
+        "topicName": "account.GameRoundSettled",
+        "partition": "1",
+        "currentOffset": "118893105",
+        "logEndOffset": "118947490",
+        "lag": "54385",
+        "memberId": "nestjs-consumer-server-f815b7a3-218d-4325-a25d-f37635f41aeb",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.49.90"
+      },
+      {
+        "topicName": "account.GameRoundSettled",
+        "partition": "2",
+        "currentOffset": "118893333",
+        "logEndOffset": "118947496",
+        "lag": "54163",
+        "memberId": "nestjs-consumer-server-f828bf36-93ff-4584-a318-57fcacdffa56",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.182.235"
+      },
+      {
+        "topicName": "account.ReferralAdded",
+        "partition": "0",
+        "currentOffset": "40009",
+        "logEndOffset": "40009",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-766f704c-d8e7-4a66-92ce-c9aaf559766a",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.101"
+      }
+    ]
+  },
+  {
+    "group": "async-admin-consumer-server",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "3",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexacms.async.systemJobStarted",
+        "partition": "0",
+        "currentOffset": "114446",
+        "logEndOffset": "114446",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.async.systemJobStarted",
+        "partition": "1",
+        "currentOffset": "114426",
+        "logEndOffset": "114426",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.async.systemJobStarted",
+        "partition": "2",
+        "currentOffset": "114435",
+        "logEndOffset": "114435",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.domain.createDomain",
+        "partition": "0",
+        "currentOffset": "33",
+        "logEndOffset": "33",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.createDomain",
+        "partition": "1",
+        "currentOffset": "34",
+        "logEndOffset": "34",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.createDomain",
+        "partition": "2",
+        "currentOffset": "30",
+        "logEndOffset": "30",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.domain.createDomainRecord",
+        "partition": "0",
+        "currentOffset": "43",
+        "logEndOffset": "43",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.createSubDomain",
+        "partition": "0",
+        "currentOffset": "18",
+        "logEndOffset": "18",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.createSubDomain",
+        "partition": "1",
+        "currentOffset": "18",
+        "logEndOffset": "18",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.createSubDomain",
+        "partition": "2",
+        "currentOffset": "18",
+        "logEndOffset": "18",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.domain.deleteDomain",
+        "partition": "0",
+        "currentOffset": "23",
+        "logEndOffset": "23",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.deleteDomain",
+        "partition": "1",
+        "currentOffset": "28",
+        "logEndOffset": "28",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.deleteDomain",
+        "partition": "2",
+        "currentOffset": "22",
+        "logEndOffset": "22",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.domain.deleteDomainRecord",
+        "partition": "0",
+        "currentOffset": "9",
+        "logEndOffset": "9",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.deleteSubDomain",
+        "partition": "0",
+        "currentOffset": "16",
+        "logEndOffset": "16",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.deleteSubDomain",
+        "partition": "1",
+        "currentOffset": "13",
+        "logEndOffset": "13",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.deleteSubDomain",
+        "partition": "2",
+        "currentOffset": "10",
+        "logEndOffset": "10",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.domain.verifyDomain",
+        "partition": "0",
+        "currentOffset": "368",
+        "logEndOffset": "368",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.verifyDomain",
+        "partition": "1",
+        "currentOffset": "375",
+        "logEndOffset": "375",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.verifyDomain",
+        "partition": "2",
+        "currentOffset": "374",
+        "logEndOffset": "374",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.domain.verifySSL",
+        "partition": "0",
+        "currentOffset": "92",
+        "logEndOffset": "92",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.domain.verifySSL",
+        "partition": "1",
+        "currentOffset": "94",
+        "logEndOffset": "94",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.domain.verifySSL",
+        "partition": "2",
+        "currentOffset": "97",
+        "logEndOffset": "97",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.game.addGamesToSite",
+        "partition": "0",
+        "currentOffset": "40",
+        "logEndOffset": "40",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.game.addGamesToSite",
+        "partition": "1",
+        "currentOffset": "42",
+        "logEndOffset": "42",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.game.addGamesToSite",
+        "partition": "2",
+        "currentOffset": "47",
+        "logEndOffset": "47",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.game.cloneGameListFromSite",
+        "partition": "0",
+        "currentOffset": "1",
+        "logEndOffset": "1",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.game.reloadGames",
+        "partition": "0",
+        "currentOffset": "57",
+        "logEndOffset": "57",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.game.reloadGames",
+        "partition": "1",
+        "currentOffset": "53",
+        "logEndOffset": "53",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.game.reloadGames",
+        "partition": "2",
+        "currentOffset": "46",
+        "logEndOffset": "46",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.gameTag.addGameTagsToGames",
+        "partition": "0",
+        "currentOffset": "124",
+        "logEndOffset": "124",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.gameTag.addGameTagsToGames",
+        "partition": "1",
+        "currentOffset": "115",
+        "logEndOffset": "115",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.gameTag.addGameTagsToGames",
+        "partition": "2",
+        "currentOffset": "118",
+        "logEndOffset": "118",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.gameTag.deleteGameTagsFromGames",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.gameTag.deleteGameTagsFromGames",
+        "partition": "1",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.gameTag.deleteGameTagsFromGames",
+        "partition": "2",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.gameTag.updateGameTagsToGames",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.buildPublishSite",
+        "partition": "0",
+        "currentOffset": "21",
+        "logEndOffset": "21",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.site.buildPublishSite",
+        "partition": "1",
+        "currentOffset": "31",
+        "logEndOffset": "31",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.buildPublishSite",
+        "partition": "2",
+        "currentOffset": "23",
+        "logEndOffset": "23",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.deleteSite",
+        "partition": "0",
+        "currentOffset": "38",
+        "logEndOffset": "38",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.site.deleteSite",
+        "partition": "1",
+        "currentOffset": "37",
+        "logEndOffset": "37",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.deleteSite",
+        "partition": "2",
+        "currentOffset": "40",
+        "logEndOffset": "40",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.initializeDefaultConfig",
+        "partition": "0",
+        "currentOffset": "39",
+        "logEndOffset": "39",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.site.initializeDefaultConfig",
+        "partition": "1",
+        "currentOffset": "34",
+        "logEndOffset": "34",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.initializeDefaultConfig",
+        "partition": "2",
+        "currentOffset": "42",
+        "logEndOffset": "42",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.invalidateSiteCache",
+        "partition": "0",
+        "currentOffset": "1116",
+        "logEndOffset": "1116",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.publishSite",
+        "partition": "0",
+        "currentOffset": "28",
+        "logEndOffset": "28",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.site.publishSite",
+        "partition": "1",
+        "currentOffset": "27",
+        "logEndOffset": "27",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.publishSite",
+        "partition": "2",
+        "currentOffset": "30",
+        "logEndOffset": "30",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.rePublishSite",
+        "partition": "0",
+        "currentOffset": "94",
+        "logEndOffset": "94",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.site.rePublishSite",
+        "partition": "1",
+        "currentOffset": "98",
+        "logEndOffset": "98",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.rePublishSite",
+        "partition": "2",
+        "currentOffset": "87",
+        "logEndOffset": "87",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.rebuildPublishSite",
+        "partition": "0",
+        "currentOffset": "376",
+        "logEndOffset": "376",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      },
+      {
+        "topicName": "opexacms.site.rebuildPublishSite",
+        "partition": "1",
+        "currentOffset": "385",
+        "logEndOffset": "385",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9c7aca7-0116-412b-8f3c-76d3e91180d9",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.106"
+      },
+      {
+        "topicName": "opexacms.site.rebuildPublishSite",
+        "partition": "2",
+        "currentOffset": "380",
+        "logEndOffset": "380",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-cfb91e17-b815-4066-bcc0-d00f4b254dfc",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.128.43"
+      },
+      {
+        "topicName": "opexacms.site.updateInternalDomain",
+        "partition": "0",
+        "currentOffset": "129",
+        "logEndOffset": "129",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-01af94a5-4271-4a65-b485-4519e4db6109",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.162"
+      }
+    ]
+  },
+  {
+    "group": "auth-consumer-server",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "auth.MayaSessionCreated",
+        "partition": "0",
+        "currentOffset": "12590770",
+        "logEndOffset": "12590770",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b17d35f8-6500-4492-8129-8a85120b406b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.168"
+      },
+      {
+        "topicName": "auth.OTPRequested",
+        "partition": "0",
+        "currentOffset": "310323",
+        "logEndOffset": "310323",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b17d35f8-6500-4492-8129-8a85120b406b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.168"
+      }
+    ]
+  },
+  {
+    "group": "extension.async.consumer-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "extension.SystemJobStarted",
+        "partition": "0",
+        "currentOffset": "4739",
+        "logEndOffset": "4739",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-19ffcc86-b241-4aa6-9308-348a31ffc0af",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.49.87"
+      }
+    ]
+  },
+  {
+    "group": "extension.webhookasync.consumer-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "0",
+        "currentOffset": "1599966",
+        "logEndOffset": "1599966",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      },
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "1",
+        "currentOffset": "1528525",
+        "logEndOffset": "1528525",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      },
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "2",
+        "currentOffset": "1528514",
+        "logEndOffset": "1528514",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      },
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "3",
+        "currentOffset": "1528514",
+        "logEndOffset": "1528514",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      },
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "4",
+        "currentOffset": "1528531",
+        "logEndOffset": "1528531",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      },
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "5",
+        "currentOffset": "1528515",
+        "logEndOffset": "1528515",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      },
+      {
+        "topicName": "extension.WebhookEventsDispatched",
+        "partition": "6",
+        "currentOffset": "1528513",
+        "logEndOffset": "1528513",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-8d702673-4866-405e-b575-c70c0705c11b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.104.73"
+      }
+    ]
+  },
+  {
+    "group": "file-consumer-server",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "file.ExecuteSystemJob",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-929659f3-9fba-4dda-9a9c-f8311bd40b5b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.116.39"
+      },
+      {
+        "topicName": "file.LinkFileToObject",
+        "partition": "0",
+        "currentOffset": "19186",
+        "logEndOffset": "19186",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-929659f3-9fba-4dda-9a9c-f8311bd40b5b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.116.39"
+      },
+      {
+        "topicName": "file.UnlinkFileFromObject",
+        "partition": "0",
+        "currentOffset": "3600",
+        "logEndOffset": "3600",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-929659f3-9fba-4dda-9a9c-f8311bd40b5b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.116.39"
+      }
+    ]
+  },
+  {
+    "group": "game-consumer-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "game.EndAggregatorGameSession",
+        "partition": "0",
+        "currentOffset": "109936",
+        "logEndOffset": "109936",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.EndAggregatorGameSession",
+        "partition": "1",
+        "currentOffset": "56833",
+        "logEndOffset": "56833",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.EndAggregatorGameSession",
+        "partition": "2",
+        "currentOffset": "56799",
+        "logEndOffset": "56799",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.EndFaChaiGameSession",
+        "partition": "0",
+        "currentOffset": "106429",
+        "logEndOffset": "106429",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.EndFaChaiGameSession",
+        "partition": "1",
+        "currentOffset": "62505",
+        "logEndOffset": "62505",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.EndFaChaiGameSession",
+        "partition": "2",
+        "currentOffset": "62544",
+        "logEndOffset": "62544",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.GameSessionEnded",
+        "partition": "0",
+        "currentOffset": "36740",
+        "logEndOffset": "36740",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.GameSessionEnded",
+        "partition": "1",
+        "currentOffset": "16308",
+        "logEndOffset": "16308",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.GameSessionEnded",
+        "partition": "2",
+        "currentOffset": "16315",
+        "logEndOffset": "16315",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartAggregatorGameSession",
+        "partition": "0",
+        "currentOffset": "428547",
+        "logEndOffset": "428547",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartAggregatorGameSession",
+        "partition": "1",
+        "currentOffset": "358733",
+        "logEndOffset": "358733",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartAggregatorGameSession",
+        "partition": "2",
+        "currentOffset": "358720",
+        "logEndOffset": "358720",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartDGGameSession",
+        "partition": "0",
+        "currentOffset": "2428",
+        "logEndOffset": "2428",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartDGGameSession",
+        "partition": "1",
+        "currentOffset": "2371",
+        "logEndOffset": "2371",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartDGGameSession",
+        "partition": "2",
+        "currentOffset": "2366",
+        "logEndOffset": "2366",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartE2EGameSession",
+        "partition": "0",
+        "currentOffset": "191",
+        "logEndOffset": "191",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartE2EGameSession",
+        "partition": "1",
+        "currentOffset": "50",
+        "logEndOffset": "50",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartE2EGameSession",
+        "partition": "2",
+        "currentOffset": "52",
+        "logEndOffset": "52",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartFaChaiGameSession",
+        "partition": "0",
+        "currentOffset": "360511",
+        "logEndOffset": "360511",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartFaChaiGameSession",
+        "partition": "1",
+        "currentOffset": "289543",
+        "logEndOffset": "289543",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartFaChaiGameSession",
+        "partition": "2",
+        "currentOffset": "289532",
+        "logEndOffset": "289532",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartJiLiGameSession",
+        "partition": "0",
+        "currentOffset": "472387",
+        "logEndOffset": "472387",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartJiLiGameSession",
+        "partition": "1",
+        "currentOffset": "472436",
+        "logEndOffset": "472436",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartJiLiGameSession",
+        "partition": "2",
+        "currentOffset": "472401",
+        "logEndOffset": "472401",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartJiLiGameSession",
+        "partition": "3",
+        "currentOffset": "472241",
+        "logEndOffset": "472241",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.StartJiLiGameSession",
+        "partition": "4",
+        "currentOffset": "472250",
+        "logEndOffset": "472250",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      },
+      {
+        "topicName": "game.SystemJobCreated",
+        "partition": "0",
+        "currentOffset": "37",
+        "logEndOffset": "37",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-b19d28e7-bf98-4d3f-b7d6-0bbba02b8e55",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.170"
+      }
+    ]
+  },
+  {
+    "group": "nestjs-group-client",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "NestReplyPartitionAssigner",
+    "members": "72",
+    "totalLag": "0",
+    "topic": []
+  },
+  {
+    "group": "nexusplay-consumer-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "3",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "nexusplay.LaunchUrlRequested",
+        "partition": "0",
+        "currentOffset": "745652",
+        "logEndOffset": "745652",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-479027b9-ab2d-40d0-8b9a-90595408c979",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.170.55"
+      },
+      {
+        "topicName": "nexusplay.LaunchUrlRequested",
+        "partition": "1",
+        "currentOffset": "5296",
+        "logEndOffset": "5296",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c8b9d9b2-16b0-4621-af10-49a12305c3d0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.171"
+      },
+      {
+        "topicName": "nexusplay.LaunchUrlRequested",
+        "partition": "2",
+        "currentOffset": "5301",
+        "logEndOffset": "5301",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-3b259db4-e46e-450e-b104-46fc132308b4",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.109"
+      },
+      {
+        "topicName": "nexusplay.SystemJobCreated",
+        "partition": "0",
+        "currentOffset": "5",
+        "logEndOffset": "5",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-3b259db4-e46e-450e-b104-46fc132308b4",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.100.109"
+      }
+    ]
+  },
+  {
+    "group": "opexa.account.projection.account",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.account.projection.account",
+        "partition": "0",
+        "currentOffset": "6939448",
+        "logEndOffset": "6939451",
+        "lag": "3",
+        "memberId": "kafkajs-99ae5beb-20b9-417b-b1e8-984da6228b10",
+        "clientId": "kafkajs",
+        "host": "10.0.113.209"
+      }
+    ]
+  },
+  {
+    "group": "opexa.account.projection.file",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.account.projection.file",
+        "partition": "0",
+        "currentOffset": "92011",
+        "logEndOffset": "92011",
+        "lag": "0",
+        "memberId": "kafkajs-c42b4083-3145-460a-b0af-c2ddbcef5024",
+        "clientId": "kafkajs",
+        "host": "10.0.113.209"
+      }
+    ]
+  },
+  {
+    "group": "opexa.account.projection.platform",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.account.projection.platform",
+        "partition": "0",
+        "currentOffset": "24346",
+        "logEndOffset": "24346",
+        "lag": "0",
+        "memberId": "kafkajs-78d90087-6c83-4cca-a4e6-647f7527450c",
+        "clientId": "kafkajs",
+        "host": "10.0.113.209"
+      }
+    ]
+  },
+  {
+    "group": "opexa.auth.projection.account",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.auth.projection.account",
+        "partition": "0",
+        "currentOffset": "6939227",
+        "logEndOffset": "6939230",
+        "lag": "3",
+        "memberId": "kafkajs-c8fb8d10-d5e3-412d-9a86-da2d6b5f752c",
+        "clientId": "kafkajs",
+        "host": "10.0.116.38"
+      }
+    ]
+  },
+  {
+    "group": "opexa.auth.projection.platform",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.auth.projection.platform",
+        "partition": "0",
+        "currentOffset": "21389",
+        "logEndOffset": "21389",
+        "lag": "0",
+        "memberId": "kafkajs-73f2d334-df07-4dde-92e8-18ffe2425aa8",
+        "clientId": "kafkajs",
+        "host": "10.0.116.38"
+      }
+    ]
+  },
+  {
+    "group": "opexa.extension.projection.core",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.extension.projection.core",
+        "partition": "0",
+        "currentOffset": "3279631",
+        "logEndOffset": "3279634",
+        "lag": "3",
+        "memberId": "kafkajs-fcb86340-84a6-4a5b-8623-373d2bc09970",
+        "clientId": "kafkajs",
+        "host": "10.0.128.40"
+      }
+    ]
+  },
+  {
+    "group": "opexa.extension.projection.file",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.extension.projection.file",
+        "partition": "0",
+        "currentOffset": "89354",
+        "logEndOffset": "89354",
+        "lag": "0",
+        "memberId": "kafkajs-2da4ba04-685a-4d4e-9958-1ae96c5bdea6",
+        "clientId": "kafkajs",
+        "host": "10.0.128.40"
+      }
+    ]
+  },
+  {
+    "group": "opexa.extension.projection.gameround",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "60886",
+    "topic": [
+      {
+        "topicName": "opexa.extension.projection.gameround",
+        "partition": "0",
+        "currentOffset": "874532482",
+        "logEndOffset": "874593368",
+        "lag": "60886",
+        "memberId": "kafkajs-7d1a31b4-f5db-42e4-98a0-1b19a759ea68",
+        "clientId": "kafkajs",
+        "host": "10.0.128.40"
+      }
+    ]
+  },
+  {
+    "group": "opexa.file.projection.file",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.file.projection.file",
+        "partition": "0",
+        "currentOffset": "115319",
+        "logEndOffset": "115319",
+        "lag": "0",
+        "memberId": "kafkajs-193c55ab-9586-435f-bf6d-4f4374e8a3cd",
+        "clientId": "kafkajs",
+        "host": "10.0.110.8"
+      }
+    ]
+  },
+  {
+    "group": "opexa.game.projection.account",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.game.projection.account",
+        "partition": "0",
+        "currentOffset": "6858118",
+        "logEndOffset": "6858121",
+        "lag": "3",
+        "memberId": "kafkajs-cdf2f361-7d30-4149-bdc0-ccb034e04309",
+        "clientId": "kafkajs",
+        "host": "10.0.110.136"
+      }
+    ]
+  },
+  {
+    "group": "opexa.main",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "7",
+    "totalLag": "80738",
+    "topic": [
+      {
+        "topicName": "opexa.main",
+        "partition": "0",
+        "currentOffset": "1580998069",
+        "logEndOffset": "1580998089",
+        "lag": "20",
+        "memberId": "kafkajs-44f85596-97c9-4f89-b88d-bd55668db0ee",
+        "clientId": "kafkajs",
+        "host": "10.0.128.45"
+      },
+      {
+        "topicName": "opexa.main",
+        "partition": "1",
+        "currentOffset": "448371106",
+        "logEndOffset": "448451440",
+        "lag": "80334",
+        "memberId": "kafkajs-5dc64ed5-8cbd-454e-ad41-5a0c355a997e",
+        "clientId": "kafkajs",
+        "host": "10.0.14.173"
+      },
+      {
+        "topicName": "opexa.main",
+        "partition": "2",
+        "currentOffset": "314431538",
+        "logEndOffset": "314431546",
+        "lag": "8",
+        "memberId": "kafkajs-6e46d678-3308-4675-8e94-e095a4f2d362",
+        "clientId": "kafkajs",
+        "host": "10.0.110.6"
+      },
+      {
+        "topicName": "opexa.main",
+        "partition": "3",
+        "currentOffset": "108126548",
+        "logEndOffset": "108126681",
+        "lag": "133",
+        "memberId": "kafkajs-77982a88-caf4-4476-a1c6-d3c42219a4be",
+        "clientId": "kafkajs",
+        "host": "10.0.130.164"
+      },
+      {
+        "topicName": "opexa.main",
+        "partition": "4",
+        "currentOffset": "107661978",
+        "logEndOffset": "107661982",
+        "lag": "4",
+        "memberId": "kafkajs-7e8edcd1-2309-4c2b-9d3e-db524abfdb22",
+        "clientId": "kafkajs",
+        "host": "10.0.123.112"
+      },
+      {
+        "topicName": "opexa.main",
+        "partition": "5",
+        "currentOffset": "252678829",
+        "logEndOffset": "252679019",
+        "lag": "190",
+        "memberId": "kafkajs-b6909df1-790f-4055-91fe-c7a4685cc02f",
+        "clientId": "kafkajs",
+        "host": "10.0.46.161"
+      },
+      {
+        "topicName": "opexa.main",
+        "partition": "6",
+        "currentOffset": "106050153",
+        "logEndOffset": "106050202",
+        "lag": "49",
+        "memberId": "kafkajs-f9fde6f8-977a-4649-a593-38abef2868b6",
+        "clientId": "kafkajs",
+        "host": "10.0.182.227"
+      }
+    ]
+  },
+  {
+    "group": "opexa.partner-matrix.projection.account",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.partner-matrix.projection.account",
+        "partition": "0",
+        "currentOffset": "5926366",
+        "logEndOffset": "5926369",
+        "lag": "3",
+        "memberId": "kafkajs-c54fb829-1370-4ce3-9c3d-ba7b609f6271",
+        "clientId": "kafkajs",
+        "host": "10.0.43.50"
+      }
+    ]
+  },
+  {
+    "group": "opexa.partner-matrix.projection.balance",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "1",
+    "topic": [
+      {
+        "topicName": "opexa.partner-matrix.projection.balance",
+        "partition": "0",
+        "currentOffset": "578456964",
+        "logEndOffset": "578456965",
+        "lag": "1",
+        "memberId": "kafkajs-13b764c9-e0cb-45a2-8650-1bcd71f9405d",
+        "clientId": "kafkajs",
+        "host": "10.0.43.50"
+      }
+    ]
+  },
+  {
+    "group": "opexa.partner-matrix.projection.bet-record",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "196585",
+    "topic": [
+      {
+        "topicName": "opexa.partner-matrix.projection.bet-record",
+        "partition": "0",
+        "currentOffset": "1586644693",
+        "logEndOffset": "1586841278",
+        "lag": "196585",
+        "memberId": "kafkajs-ea6a22ef-864c-4727-b8bb-237e58075afd",
+        "clientId": "kafkajs",
+        "host": "10.0.109.208"
+      }
+    ]
+  },
+  {
+    "group": "opexa.portal.projection.core",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "296687",
+    "topic": [
+      {
+        "topicName": "opexa.portal.projection.core",
+        "partition": "0",
+        "currentOffset": "1710244361",
+        "logEndOffset": "1710541048",
+        "lag": "296687",
+        "memberId": "kafkajs-979d3869-ace9-44f2-8cc0-5ceb738131ad",
+        "clientId": "kafkajs",
+        "host": "10.0.110.96"
+      }
+    ]
+  },
+  {
+    "group": "opexa.portal.projection.leaderboard",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "141551",
+    "topic": [
+      {
+        "topicName": "opexa.portal.projection.leaderboard",
+        "partition": "0",
+        "currentOffset": "126373345",
+        "logEndOffset": "126514896",
+        "lag": "141551",
+        "memberId": "kafkajs-d3ab7977-15bb-4f76-afc0-99969cf8cf0a",
+        "clientId": "kafkajs",
+        "host": "10.0.110.96"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.betrecord",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "3",
+    "totalLag": "7213",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.betrecord",
+        "partition": "0",
+        "currentOffset": "1278032517",
+        "logEndOffset": "1278032520",
+        "lag": "3",
+        "memberId": "kafkajs-7fa55416-d10f-4dbc-b861-d1aef2444226",
+        "clientId": "kafkajs",
+        "host": "10.0.125.215"
+      },
+      {
+        "topicName": "opexa.report.projection.betrecord",
+        "partition": "1",
+        "currentOffset": "456669844",
+        "logEndOffset": "456671331",
+        "lag": "1487",
+        "memberId": "kafkajs-93616c11-10cc-4920-af94-3e0047919a6e",
+        "clientId": "kafkajs",
+        "host": "10.0.182.228"
+      },
+      {
+        "topicName": "opexa.report.projection.betrecord",
+        "partition": "2",
+        "currentOffset": "1532672",
+        "logEndOffset": "1538395",
+        "lag": "5723",
+        "memberId": "kafkajs-d12163a7-8c88-48fd-8682-2bcd4ef36c4a",
+        "clientId": "kafkajs",
+        "host": "10.0.46.4"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.depositrecord",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "2",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.depositrecord",
+        "partition": "0",
+        "currentOffset": "15247637",
+        "logEndOffset": "15247639",
+        "lag": "2",
+        "memberId": "kafkajs-bc945777-5bec-40ae-bb1f-9334490ab96f",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.inflowrecord",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.inflowrecord",
+        "partition": "0",
+        "currentOffset": "11724649",
+        "logEndOffset": "11724652",
+        "lag": "3",
+        "memberId": "kafkajs-3f80fa57-e871-47b0-a7cc-708e744bd3f5",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.jackpot",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.jackpot",
+        "partition": "0",
+        "currentOffset": "1",
+        "logEndOffset": "1",
+        "lag": "0",
+        "memberId": "kafkajs-20227141-32bb-414f-9c60-ac492b4ead09",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.member",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "7243",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.member",
+        "partition": "0",
+        "currentOffset": "733693985",
+        "logEndOffset": "733701228",
+        "lag": "7243",
+        "memberId": "kafkajs-ec704365-faa9-45f5-aa78-2202f25c64a8",
+        "clientId": "kafkajs",
+        "host": "10.0.46.97"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.membergroup",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.membergroup",
+        "partition": "0",
+        "currentOffset": "55303",
+        "logEndOffset": "55303",
+        "lag": "0",
+        "memberId": "kafkajs-c5fcf7ae-1aa5-41a0-93da-ce5ccf447651",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.platform",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.platform",
+        "partition": "0",
+        "currentOffset": "22000",
+        "logEndOffset": "22000",
+        "lag": "0",
+        "memberId": "kafkajs-74a58501-7f73-4238-84d6-60bb53c299f5",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.pointswallet",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.pointswallet",
+        "partition": "0",
+        "currentOffset": "2561798",
+        "logEndOffset": "2561798",
+        "lag": "0",
+        "memberId": "kafkajs-6a7b215c-bba5-4a7a-998d-de93f6bd9379",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.promo",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "7",
+    "totalLag": "90542",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.promo",
+        "partition": "0",
+        "currentOffset": "1250424712",
+        "logEndOffset": "1250427361",
+        "lag": "2649",
+        "memberId": "kafkajs-1a3f8927-4f19-4960-9b40-c6855b741c27",
+        "clientId": "kafkajs",
+        "host": "10.0.125.209"
+      },
+      {
+        "topicName": "opexa.report.projection.promo",
+        "partition": "1",
+        "currentOffset": "154378836",
+        "logEndOffset": "154440642",
+        "lag": "61806",
+        "memberId": "kafkajs-241e047b-5777-481f-880a-b669681370fe",
+        "clientId": "kafkajs",
+        "host": "10.0.108.165"
+      },
+      {
+        "topicName": "opexa.report.projection.promo",
+        "partition": "2",
+        "currentOffset": "878326",
+        "logEndOffset": "880226",
+        "lag": "1900",
+        "memberId": "kafkajs-3b0995fd-e3ad-471a-9485-39352cece835",
+        "clientId": "kafkajs",
+        "host": "10.0.41.87"
+      },
+      {
+        "topicName": "opexa.report.projection.promo",
+        "partition": "3",
+        "currentOffset": "8515",
+        "logEndOffset": "9770",
+        "lag": "1255",
+        "memberId": "kafkajs-72eff899-c637-419f-b5bb-4896621737eb",
+        "clientId": "kafkajs",
+        "host": "10.0.182.226"
+      },
+      {
+        "topicName": "opexa.report.projection.promo",
+        "partition": "4",
+        "currentOffset": "3697",
+        "logEndOffset": "26629",
+        "lag": "22932",
+        "memberId": "kafkajs-ad52c5df-084d-484d-8781-0f3704b72084",
+        "clientId": "kafkajs",
+        "host": "10.0.35.120"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.referral",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "4533",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.referral",
+        "partition": "0",
+        "currentOffset": "6061730",
+        "logEndOffset": "6066263",
+        "lag": "4533",
+        "memberId": "kafkajs-f707bf6c-8327-4736-9064-64995c933feb",
+        "clientId": "kafkajs",
+        "host": "10.0.46.166"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.transactionrecord",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "3",
+    "totalLag": "11979",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.transactionrecord",
+        "partition": "0",
+        "currentOffset": "641992519",
+        "logEndOffset": "641992521",
+        "lag": "2",
+        "memberId": "kafkajs-154cb961-8b11-4a4e-b430-49fd51874b0f",
+        "clientId": "kafkajs",
+        "host": "10.0.166.83"
+      },
+      {
+        "topicName": "opexa.report.projection.transactionrecord",
+        "partition": "1",
+        "currentOffset": "711720",
+        "logEndOffset": "721021",
+        "lag": "9301",
+        "memberId": "kafkajs-6ea0d06b-b1e5-4aa8-90e3-0960565dfdf6",
+        "clientId": "kafkajs",
+        "host": "10.0.14.166"
+      },
+      {
+        "topicName": "opexa.report.projection.transactionrecord",
+        "partition": "2",
+        "currentOffset": "527857",
+        "logEndOffset": "530533",
+        "lag": "2676",
+        "memberId": "kafkajs-fd2bc528-8018-4960-b454-00264fbf1820",
+        "clientId": "kafkajs",
+        "host": "10.0.125.211"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.wallet",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.wallet",
+        "partition": "0",
+        "currentOffset": "626638083",
+        "logEndOffset": "626638083",
+        "lag": "0",
+        "memberId": "kafkajs-876813e5-3efe-4eb0-be0f-34e377b3f37b",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.report.projection.withdrawalrecord",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.report.projection.withdrawalrecord",
+        "partition": "0",
+        "currentOffset": "8638473",
+        "logEndOffset": "8638476",
+        "lag": "3",
+        "memberId": "kafkajs-a9f1bff3-b44a-4de4-911f-88c9ee435373",
+        "clientId": "kafkajs",
+        "host": "10.0.130.169"
+      }
+    ]
+  },
+  {
+    "group": "opexa.trigger.projection.member",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "3",
+    "topic": [
+      {
+        "topicName": "opexa.trigger.projection.member",
+        "partition": "0",
+        "currentOffset": "3063792",
+        "logEndOffset": "3063795",
+        "lag": "3",
+        "memberId": "kafkajs-f063c60c-aa7c-4fa6-8568-f9435722aee7",
+        "clientId": "kafkajs",
+        "host": "10.0.128.37"
+      }
+    ]
+  },
+  {
+    "group": "opexa.trigger.projection.platform",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.trigger.projection.platform",
+        "partition": "0",
+        "currentOffset": "159",
+        "logEndOffset": "159",
+        "lag": "0",
+        "memberId": "kafkajs-e76bcea0-521d-4a9e-a7c5-62a20e391cba",
+        "clientId": "kafkajs",
+        "host": "10.0.128.37"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.deposit",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.deposit",
+        "partition": "0",
+        "currentOffset": "8391781",
+        "logEndOffset": "8391781",
+        "lag": "0",
+        "memberId": "kafkajs-941be23b-b3db-4738-abf1-114d0019ea99",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.file",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.file",
+        "partition": "0",
+        "currentOffset": "92008",
+        "logEndOffset": "92008",
+        "lag": "0",
+        "memberId": "kafkajs-1bcb91b0-481f-4bc9-81e7-9dd4299a53ec",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.member",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.member",
+        "partition": "0",
+        "currentOffset": "11221608",
+        "logEndOffset": "11221608",
+        "lag": "0",
+        "memberId": "kafkajs-f9fdcc69-f0e2-46bf-b730-10bfe700a84a",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.membergroup",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.membergroup",
+        "partition": "0",
+        "currentOffset": "8548",
+        "logEndOffset": "8548",
+        "lag": "0",
+        "memberId": "kafkajs-d4472184-9ea4-45ae-b614-425a5d47f3c4",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.operator",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.operator",
+        "partition": "0",
+        "currentOffset": "466",
+        "logEndOffset": "466",
+        "lag": "0",
+        "memberId": "kafkajs-8e976ab8-3284-4804-b27b-b35659618fcf",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.pointswallet",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.pointswallet",
+        "partition": "0",
+        "currentOffset": "2089152",
+        "logEndOffset": "2089152",
+        "lag": "0",
+        "memberId": "kafkajs-303413c9-eeb1-413c-afa6-35f3dfc4d359",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.promo",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "2",
+    "totalLag": "11364",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.promo",
+        "partition": "0",
+        "currentOffset": "507543369",
+        "logEndOffset": "507554733",
+        "lag": "11364",
+        "memberId": "kafkajs-1c2ea85a-0ece-4fb6-b6bf-f8fd06da0b73",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.wallet",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.wallet",
+        "partition": "0",
+        "currentOffset": "634149066",
+        "logEndOffset": "634149066",
+        "lag": "0",
+        "memberId": "kafkajs-ea5ef73f-1a38-4090-b844-e4fccc2526d7",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "opexa.wallet.projection.withdrawal",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "opexa.wallet.projection.withdrawal",
+        "partition": "0",
+        "currentOffset": "1782604",
+        "logEndOffset": "1782604",
+        "lag": "0",
+        "memberId": "kafkajs-0d843139-ea72-4173-9b73-7ad8524831d5",
+        "clientId": "kafkajs",
+        "host": "10.0.113.215"
+      }
+    ]
+  },
+  {
+    "group": "partnermatrix-consumer-server",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "partnermatrix.MemberAccountCreated",
+        "partition": "0",
+        "currentOffset": "18518",
+        "logEndOffset": "18518",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-84b8be61-6a67-4381-9013-3084675c13c7",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.15"
+      },
+      {
+        "topicName": "partnermatrix.PlatformSkinRegistered",
+        "partition": "0",
+        "currentOffset": "2",
+        "logEndOffset": "2",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-84b8be61-6a67-4381-9013-3084675c13c7",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.15"
+      },
+      {
+        "topicName": "partnermatrix.SystemJobStarted",
+        "partition": "0",
+        "currentOffset": "222786",
+        "logEndOffset": "222786",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-84b8be61-6a67-4381-9013-3084675c13c7",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.15"
+      },
+      {
+        "topicName": "partnermatrix.WebhookEventsDispatched",
+        "partition": "0",
+        "currentOffset": "300988",
+        "logEndOffset": "300988",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-84b8be61-6a67-4381-9013-3084675c13c7",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.110.15"
+      }
+    ]
+  },
+  {
+    "group": "report-aggregationasync-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "3",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "report.AggregationCalculationRequested",
+        "partition": "0",
+        "currentOffset": "26736",
+        "logEndOffset": "26736",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-be818c91-e5d5-4e9e-8d0b-e3fef762ce0c",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.37.71"
+      },
+      {
+        "topicName": "report.AggregationCalculationRequested",
+        "partition": "1",
+        "currentOffset": "26726",
+        "logEndOffset": "26726",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-bfaac73a-4b59-458e-abd9-953631f9ce33",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.111.244"
+      },
+      {
+        "topicName": "report.AggregationCalculationRequested",
+        "partition": "2",
+        "currentOffset": "26732",
+        "logEndOffset": "26732",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-c9d65c62-ffa5-471e-9b76-a9ed99d896c2",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.168.40"
+      },
+      {
+        "topicName": "report.CohortsAnalysisDataCalculationRequested",
+        "partition": "0",
+        "currentOffset": "15886",
+        "logEndOffset": "15886",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-bfaac73a-4b59-458e-abd9-953631f9ce33",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.111.244"
+      },
+      {
+        "topicName": "report.MemberMetricsCalculationRequested",
+        "partition": "0",
+        "currentOffset": "15482",
+        "logEndOffset": "15482",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-be818c91-e5d5-4e9e-8d0b-e3fef762ce0c",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.37.71"
+      }
+    ]
+  },
+  {
+    "group": "report-async-consumer-server",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "4",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "report.CreateNotification",
+        "partition": "0",
+        "currentOffset": "13510",
+        "logEndOffset": "13510",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-16b842c9-13d1-48d7-8151-488ef55227fe",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.165"
+      },
+      {
+        "topicName": "report.ExportCreated",
+        "partition": "0",
+        "currentOffset": "2042",
+        "logEndOffset": "2042",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-e969bc98-325a-4197-b344-c3fe28a196eb",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.167"
+      },
+      {
+        "topicName": "report.ExportCreated",
+        "partition": "1",
+        "currentOffset": "1281",
+        "logEndOffset": "1281",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-16b842c9-13d1-48d7-8151-488ef55227fe",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.165"
+      },
+      {
+        "topicName": "report.ExportCreated",
+        "partition": "2",
+        "currentOffset": "1263",
+        "logEndOffset": "1263",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-1b94a505-1fc7-4979-b62e-2ca151ec9ad1",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.49.86"
+      },
+      {
+        "topicName": "report.MemberAccountDeleted",
+        "partition": "0",
+        "currentOffset": "2156",
+        "logEndOffset": "2156",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-1b94a505-1fc7-4979-b62e-2ca151ec9ad1",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.49.86"
+      },
+      {
+        "topicName": "report.MemberGroupMembersCountCalculationRequested",
+        "partition": "0",
+        "currentOffset": "5646",
+        "logEndOffset": "5646",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-e969bc98-325a-4197-b344-c3fe28a196eb",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.130.167"
+      },
+      {
+        "topicName": "report.PlatformDeleted",
+        "partition": "0",
+        "currentOffset": "1",
+        "logEndOffset": "1",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-4e7167bf-4229-4424-acf5-3a7687e4c095",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.125.212"
+      },
+      {
+        "topicName": "report.SystemJobCreated",
+        "partition": "0",
+        "currentOffset": "3565",
+        "logEndOffset": "3565",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-4e7167bf-4229-4424-acf5-3a7687e4c095",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.125.212"
+      }
+    ]
+  },
+  {
+    "group": "report-coreasync-server",
+    "coordinator": "2",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "31828",
+    "topic": [
+      {
+        "topicName": "report.MemberActivityLogged",
+        "partition": "0",
+        "currentOffset": "388525407",
+        "logEndOffset": "388533741",
+        "lag": "8334",
+        "memberId": "nestjs-consumer-server-a1a7711d-7933-4656-8cc4-28f70307695b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.102"
+      },
+      {
+        "topicName": "report.MemberActivityLogged",
+        "partition": "1",
+        "currentOffset": "38380765",
+        "logEndOffset": "38389089",
+        "lag": "8324",
+        "memberId": "nestjs-consumer-server-a1a7711d-7933-4656-8cc4-28f70307695b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.102"
+      },
+      {
+        "topicName": "report.MemberActivityLogged",
+        "partition": "2",
+        "currentOffset": "38381269",
+        "logEndOffset": "38389146",
+        "lag": "7877",
+        "memberId": "nestjs-consumer-server-a1a7711d-7933-4656-8cc4-28f70307695b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.102"
+      },
+      {
+        "topicName": "report.MemberActivityLogged",
+        "partition": "3",
+        "currentOffset": "38382151",
+        "logEndOffset": "38389077",
+        "lag": "6926",
+        "memberId": "nestjs-consumer-server-a1a7711d-7933-4656-8cc4-28f70307695b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.102"
+      },
+      {
+        "topicName": "report.OperatorActivityLogged",
+        "partition": "0",
+        "currentOffset": "24750",
+        "logEndOffset": "24752",
+        "lag": "2",
+        "memberId": "nestjs-consumer-server-a1a7711d-7933-4656-8cc4-28f70307695b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.102"
+      },
+      {
+        "topicName": "report.SessionCreated",
+        "partition": "0",
+        "currentOffset": "3125976",
+        "logEndOffset": "3126341",
+        "lag": "365",
+        "memberId": "nestjs-consumer-server-a1a7711d-7933-4656-8cc4-28f70307695b",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.171.102"
+      }
+    ]
+  },
+  {
+    "group": "trigger-async-consumer-server",
+    "coordinator": "0",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "15",
+    "topic": [
+      {
+        "topicName": "trigger.BonusRewardGranted",
+        "partition": "0",
+        "currentOffset": "591",
+        "logEndOffset": "591",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.DepositConfirmed",
+        "partition": "0",
+        "currentOffset": "262820",
+        "logEndOffset": "262820",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.GameRoundSettled",
+        "partition": "0",
+        "currentOffset": "209302812",
+        "logEndOffset": "209302827",
+        "lag": "15",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.LoginCashRewardGranted",
+        "partition": "0",
+        "currentOffset": "0",
+        "logEndOffset": "0",
+        "lag": "-",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.MemberAccountCreated",
+        "partition": "0",
+        "currentOffset": "177049",
+        "logEndOffset": "177049",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.MemberAccountDeleted",
+        "partition": "0",
+        "currentOffset": "192",
+        "logEndOffset": "192",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.MemberLoggedIn",
+        "partition": "0",
+        "currentOffset": "9052137",
+        "logEndOffset": "9052137",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.MemberVerificationApproved",
+        "partition": "0",
+        "currentOffset": "151656",
+        "logEndOffset": "151656",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.MessageDeliveryRequested",
+        "partition": "0",
+        "currentOffset": "1866439",
+        "logEndOffset": "1866439",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      },
+      {
+        "topicName": "trigger.QuestGrantingRequested",
+        "partition": "0",
+        "currentOffset": "11169",
+        "logEndOffset": "11169",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-2414137e-afb1-4af2-9e00-d68c89914cd0",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.46.5"
+      }
+    ]
+  },
+  {
+    "group": "undefined-async-server",
+    "coordinator": "1",
+    "state": "Stable",
+    "balancer": "RoundRobinAssigner",
+    "members": "1",
+    "totalLag": "0",
+    "topic": [
+      {
+        "topicName": "portal.MemberAccountCreated",
+        "partition": "0",
+        "currentOffset": "633265",
+        "logEndOffset": "633265",
+        "lag": "0",
+        "memberId": "nestjs-consumer-server-10afa5bf-2273-44dc-bc76-0c167c4f161e",
+        "clientId": "nestjs-consumer-server",
+        "host": "10.0.14.170"
+      }
+    ]
+  }
+]
